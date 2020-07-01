@@ -109,7 +109,7 @@ if __name__ == '__main__':
     
     
     for k, img in tqdm( enumerate(files), unit='imges'):
-        # if k == 0:
+        #if k == 1:
         logger.info(obj.mainFunction(imgPath=img))
         #break
     

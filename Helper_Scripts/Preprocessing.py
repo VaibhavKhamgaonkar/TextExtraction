@@ -166,7 +166,7 @@ class Preprocessing():
         kernal = cv2.getStructuringElement(cv2.MORPH_RECT, (7,5), )
         black_mask = cv2.dilate(black_mask, kernel=kernal, iterations=2 )
         cv2.imshow('black_mask',black_mask)
-        cv2.waitKey(0)
+        cv2.waitKey(100)
         cv2.destroyAllWindows()
         
         testImg = cv2.cvtColor(np.ones(shape=img.shape, dtype = 'uint8')*255, cv2.COLOR_BGR2GRAY)
@@ -208,7 +208,7 @@ class Preprocessing():
             testImg[testImg>125] = 255
             cv2.imshow('a',roi)
             cv2.imshow('final1',testImg)
-            cv2.waitKey(35)
+            cv2.waitKey(100)
         cv2.destroyAllWindows()
             
         #     rect = cv2.minAreaRect(contour)
@@ -316,7 +316,7 @@ class Preprocessing():
        #  final = cv2.bitwise_and(image, image, mask = test)
        #  cv2.imshow('mask',test)
         cv2.imshow('final',testImg)
-        cv2.waitKey(0)
+        cv2.waitKey(1000)
         cv2.destroyAllWindows()            
         #return cv2.cvtColor(final, cv2.COLOR_GRAY2BGR)
         return cv2.cvtColor(testImg, cv2.COLOR_GRAY2BGR)

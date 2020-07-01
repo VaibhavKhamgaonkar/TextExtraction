@@ -114,7 +114,7 @@ class ExtractData(Preprocessing):
         if visualizeImg:
             #cv2.imshow('Img', page)
             cv2.imshow('ResizeImg', imutils.resize(page,width=620))
-            cv2.waitKey(0)
+            cv2.waitKey(2000)
             cv2.destroyAllWindows()
         logger.info('Now Extracting text')
         text += ' ' + pytesseract.image_to_string(page,
