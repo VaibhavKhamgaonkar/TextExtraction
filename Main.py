@@ -53,6 +53,7 @@ class Main(ExtractData):
                    
         '''
         visiualize = eval(self.conf.get('visiualize', 'visiualize'))
+        #print(visiualize)
         windowSize = eval(self.conf.get('images', 'windowSize'))
         stepSize = eval(self.conf.get('images', 'stepSize'))
         isSpellCheckRequired = eval(self.conf.get('operations', 'isSpellCheckRequired'))
@@ -94,6 +95,7 @@ if __name__ == '__main__':
     wordListPath = parser.get('paths','wordListPath')
     pytesseractPath = parser.get('paths','pytesseractPath')
     
+    #parser.get('visiualize', 'visiualize')
     
     obj = Main(baseDirPath=baseDirPath, 
                       wordListPath=wordListPath, 
@@ -108,8 +110,8 @@ if __name__ == '__main__':
     
     
     
-    for k, img in tqdm( enumerate(files), unit='imges'):
-        #if k == 1:
+    for k, img in tqdm(enumerate(files), unit='imges'):
+        #if k == 3:
         logger.info(obj.mainFunction(imgPath=img))
         #break
     

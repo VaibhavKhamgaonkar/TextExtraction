@@ -115,7 +115,7 @@ class Preprocessing():
             6. visualizeImg : Whether to the operation in action.
         
         '''
-        img = cv2.resize(img,  None, fx = 1, fy = 1, interpolation = cv2.INTER_CUBIC)
+        img = cv2.resize(img,  None, fx = 1.5, fy = 1.5, interpolation = cv2.INTER_CUBIC)
         imgBackup = cv2.cvtColor(img.copy(), cv2.COLOR_BGR2GRAY)
         winW, winH = windowSize
         for (x, y, window) in Preprocessing.sliding_window(img, stepSize= stepSize, windowSize=windowSize):
@@ -153,11 +153,12 @@ class Preprocessing():
     
     #----------------------------------------------------
     
-    def cleanImage(self, image):
+    def cleanImage(self, image ,visualizeImg=False):
         ''' 
         clean the image with random ticks and other Noise.
         
         '''
+        #print(visualizeImg)
         img = image.copy()
         lower_black = np.array([0,0,0], dtype = "uint16")
         upper_black = np.array([100,100,100], dtype = "uint16")
@@ -165,11 +166,13 @@ class Preprocessing():
         
         kernal = cv2.getStructuringElement(cv2.MORPH_RECT, (7,5), )
         black_mask = cv2.dilate(black_mask, kernel=kernal, iterations=2 )
-        cv2.imshow('black_mask',black_mask)
-        cv2.waitKey(100)
-        cv2.destroyAllWindows()
         
-        testImg = cv2.cvtColor(np.ones(shape=img.shape, dtype = 'uint8')*255, cv2.COLOR_BGR2GRAY)
+        if visualizeImg:
+            cv2.imshow('black_mask',black_mask)
+            cv2.waitKey(100)
+            cv2.destroyAllWindows()
+        
+        testImg = cv2.cvtColor(np.ones(shape=img.shape, dtype = 'uint8')*200, cv2.COLOR_BGR2GRAY)
         #print(testImg.shape)
         
         #black_mask = cv2.bitwise_not(black_mask)
@@ -205,11 +208,14 @@ class Preprocessing():
             testImg[y:y+h, x:x+w] = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
             
             
-            testImg[testImg>125] = 255
-            cv2.imshow('a',roi)
-            cv2.imshow('final1',testImg)
-            cv2.waitKey(100)
-        cv2.destroyAllWindows()
+            #testImg[testImg<160] = 0
+            #testImg[testImg>150] = 255
+            
+            if visualizeImg:
+                cv2.imshow('a',roi)
+                cv2.imshow('final1',testImg)
+                cv2.waitKey(100)
+        
             
         #     rect = cv2.minAreaRect(contour)
         #     box = cv2.boxPoints(rect)
@@ -315,10 +321,11 @@ class Preprocessing():
         
        #  final = cv2.bitwise_and(image, image, mask = test)
        #  cv2.imshow('mask',test)
-        cv2.imshow('final',testImg)
-        cv2.waitKey(1000)
-        cv2.destroyAllWindows()            
-        #return cv2.cvtColor(final, cv2.COLOR_GRAY2BGR)
+        if visualizeImg: 
+            cv2.imshow('final',testImg)
+            cv2.waitKey(1000)
+            cv2.destroyAllWindows()            
+            #return cv2.cvtColor(final, cv2.COLOR_GRAY2BGR)
         return cv2.cvtColor(testImg, cv2.COLOR_GRAY2BGR)
     #--------------------------------------------------------------------------
     

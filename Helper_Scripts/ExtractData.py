@@ -87,6 +87,7 @@ class ExtractData(Preprocessing):
                     https://nanonets.com/blog/ocr-with-tesseract/
         '''
         # print(f'Starting ====== {imgPath}')
+        #print(visualizeImg)
         logger.info(f'Starting ====== {imgPath}')
         page = cv2.imread(imgPath)
         text = ' '
@@ -94,7 +95,7 @@ class ExtractData(Preprocessing):
         ''' Clean the page : Needed when there are any hand writtent text or tickmarks on the Image '''
         
         logger.info('performing cleaning operation..')
-        page = self.cleanImage(page)
+        page = self.cleanImage(page, visualizeImg= visualizeImg)
         logger.info(f'Image is cleaned and has shape {page.shape}')
         
         # cv2.imshow('Cleaned', page)
@@ -117,10 +118,14 @@ class ExtractData(Preprocessing):
             cv2.waitKey(2000)
             cv2.destroyAllWindows()
         logger.info('Now Extracting text')
-        text += ' ' + pytesseract.image_to_string(page,
+        
+        try:
+            text += ' ' + pytesseract.image_to_string(page,
                                                       config = f'--psm {psm}, --oem {oem}' )
                           #-c preserve_interword_spaces=1x1,
-        
+        except Exception as e:
+            logger.exception("Error occured while extracting the text ")
+            return 'Error', False
         ''' Perform spellcheck operation '''
         if isSpellCheckRequired:
             logger.info('applying Spell checking')
