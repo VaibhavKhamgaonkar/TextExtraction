@@ -376,14 +376,7 @@ class Preprocessing():
 
 if __name__ == '__main__':
     
-    path = 'D:\\Temp\\'
-    pytesseract.pytesseract.tesseract_cmd = path + 'tesseract/tesseract.exe'
-    obj = Preprocessing(baseDirPath = path, word_list_path=path+'templates/finalCorpus.txt')
-    
-    st = time.time()
-    obj.processPDF(uploadPath=path+'static/uploads/')
-    et = time.time()
-    print(f'Finished processing in {np.round((et-st)/60.0, 3)} mins.')
+    pass
     
     
    

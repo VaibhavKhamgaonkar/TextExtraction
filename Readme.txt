@@ -14,7 +14,7 @@ https://stackoverflow.com/questions/7225900/how-to-install-packages-using-pip-ac
 
 
 
-Note: This programe uses Pytesseract to extract the text from the image. so pytesseract executble path should be configured i nthe config file.
+Note: This programe uses Pytesseract to extract the text from the image. so pytesseract executble path should be configured in the config file.
 
 pytesseract can be downloaded from 
 https://github.com/tesseract-ocr/tesseract/wiki
