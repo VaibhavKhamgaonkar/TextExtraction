@@ -1,120 +1,32 @@
-2020-07-01 10:47:54,635:Helper_Scripts.ExtractData:Starting ====== D:/!@Projects/FinicityTask/Data/Img1.png
-2020-07-01 10:47:54,653:Helper_Scripts.ExtractData:performing cleaning operation..
-2020-07-01 10:48:32,164:Helper_Scripts.ExtractData:Image is cleaned and has shape (1041, 630, 3)
-2020-07-01 10:48:41,894:Helper_Scripts.ExtractData:Now Extracting text
-2020-07-01 10:48:46,738:Helper_Scripts.ExtractData:applying Spell checking
-2020-07-01 10:48:47,178:__main__:
-Extraction process completed and file is stored at D:/!@Projects/FinicityTask/Output/WithSpellCheck__Img1.png.txt
-2020-07-01 10:48:47,179:__main__:None
-2020-07-01 10:48:47,180:Helper_Scripts.ExtractData:Starting ====== D:/!@Projects/FinicityTask/Data/Img2.png
-2020-07-01 10:48:47,193:Helper_Scripts.ExtractData:performing cleaning operation..
-2020-07-01 10:48:59,040:Helper_Scripts.ExtractData:Image is cleaned and has shape (777, 630, 3)
-2020-07-01 10:49:04,968:Helper_Scripts.ExtractData:Now Extracting text
-2020-07-01 10:49:10,716:Helper_Scripts.ExtractData:applying Spell checking
-2020-07-01 10:49:12,178:__main__:
-Extraction process completed and file is stored at D:/!@Projects/FinicityTask/Output/WithSpellCheck__Img2.png.txt
-2020-07-01 10:49:12,178:__main__:None
-2020-07-01 10:49:12,179:Helper_Scripts.ExtractData:Starting ====== D:/!@Projects/FinicityTask/Data/Img3.png
-2020-07-01 10:49:12,185:Helper_Scripts.ExtractData:performing cleaning operation..
-2020-07-01 10:49:20,434:Helper_Scripts.ExtractData:Image is cleaned and has shape (422, 759, 3)
-2020-07-01 10:49:23,938:Helper_Scripts.ExtractData:Now Extracting text
-2020-07-01 10:49:25,445:Helper_Scripts.ExtractData:applying Spell checking
-2020-07-01 10:49:25,590:__main__:
-Extraction process completed and file is stored at D:/!@Projects/FinicityTask/Output/WithSpellCheck__Img3.png.txt
-2020-07-01 10:49:25,590:__main__:None
-2020-07-01 10:49:25,591:Helper_Scripts.ExtractData:Starting ====== D:/!@Projects/FinicityTask/Data/Img4.png
-2020-07-01 10:49:25,596:Helper_Scripts.ExtractData:performing cleaning operation..
-2020-07-01 10:49:47,918:Helper_Scripts.ExtractData:Image is cleaned and has shape (529, 396, 3)
-2020-07-01 10:49:54,184:Helper_Scripts.ExtractData:Now Extracting text
-2020-07-01 10:49:57,616:Helper_Scripts.ExtractData:applying Spell checking
-2020-07-01 10:49:58,662:__main__:
-Extraction process completed and file is stored at D:/!@Projects/FinicityTask/Output/WithSpellCheck__Img4.png.txt
-2020-07-01 10:49:58,663:__main__:None
-2020-07-01 10:55:37,865:Helper_Scripts.ExtractData:Starting ====== D:/!@Projects/FinicityTask/Data/Img1.png
-2020-07-01 10:55:37,882:Helper_Scripts.ExtractData:performing cleaning operation..
-2020-07-01 10:57:12,586:Helper_Scripts.ExtractData:Image is cleaned and has shape (1041, 630, 3)
-2020-07-01 10:57:25,012:Helper_Scripts.ExtractData:Now Extracting text
-2020-07-01 10:57:30,568:Helper_Scripts.ExtractData:applying Spell checking
-2020-07-01 10:57:30,985:__main__:
-Extraction process completed and file is stored at D:/!@Projects/FinicityTask/Output/WithSpellCheck__Img1.png.txt
-2020-07-01 10:57:30,986:__main__:None
-2020-07-01 10:58:09,606:Helper_Scripts.ExtractData:Starting ====== D:/!@Projects/FinicityTask/Data/Img1.png
-2020-07-01 10:58:09,622:Helper_Scripts.ExtractData:performing cleaning operation..
-2020-07-01 10:58:28,915:Helper_Scripts.ExtractData:Image is cleaned and has shape (1041, 630, 3)
-2020-07-01 10:58:40,585:Helper_Scripts.ExtractData:Now Extracting text
-2020-07-01 10:58:41,829:Helper_Scripts.ExtractData:applying Spell checking
-2020-07-01 10:58:42,260:__main__:
-Extraction process completed and file is stored at D:/!@Projects/FinicityTask/Output/WithSpellCheck__Img1.png.txt
-2020-07-01 10:58:42,261:__main__:None
-2020-07-01 10:59:31,899:Helper_Scripts.ExtractData:Starting ====== D:/!@Projects/FinicityTask/Data/Img1.png
-2020-07-01 10:59:31,916:Helper_Scripts.ExtractData:performing cleaning operation..
-2020-07-01 10:59:53,365:Helper_Scripts.ExtractData:Image is cleaned and has shape (1041, 630, 3)
-2020-07-01 11:00:10,306:Helper_Scripts.ExtractData:Now Extracting text
-2020-07-01 11:00:11,711:Helper_Scripts.ExtractData:applying Spell checking
-2020-07-01 11:00:12,453:__main__:
-Extraction process completed and file is stored at D:/!@Projects/FinicityTask/Output/WithSpellCheck__Img1.png.txt
-2020-07-01 11:00:12,454:__main__:None
-2020-07-01 11:00:25,753:Helper_Scripts.ExtractData:Starting ====== D:/!@Projects/FinicityTask/Data/Img1.png
-2020-07-01 11:00:25,857:Helper_Scripts.ExtractData:performing cleaning operation..
-2020-07-01 11:00:36,923:Helper_Scripts.ExtractData:Image is cleaned and has shape (1041, 630, 3)
-2020-07-01 11:00:47,433:Helper_Scripts.ExtractData:Now Extracting text
-2020-07-01 11:00:50,703:Helper_Scripts.ExtractData:applying Spell checking
-2020-07-01 11:00:51,161:__main__:
-Extraction process completed and file is stored at D:/!@Projects/FinicityTask/Output/WithSpellCheck__Img1.png.txt
-2020-07-01 11:00:51,162:__main__:None
-2020-07-01 11:01:37,180:Helper_Scripts.ExtractData:Starting ====== D:/!@Projects/FinicityTask/Data/Img1.png
-2020-07-01 11:01:37,196:Helper_Scripts.ExtractData:performing cleaning operation..
-2020-07-01 11:01:47,654:Helper_Scripts.ExtractData:Image is cleaned and has shape (1041, 630, 3)
-2020-07-01 11:01:53,160:Helper_Scripts.ExtractData:Now Extracting text
-2020-07-01 11:01:55,637:Helper_Scripts.ExtractData:applying Spell checking
-2020-07-01 11:01:56,917:__main__:
-Extraction process completed and file is stored at D:/!@Projects/FinicityTask/Output/WithSpellCheck__Img1.png.txt
-2020-07-01 11:01:56,917:__main__:None
-2020-07-01 11:03:03,937:Helper_Scripts.ExtractData:Starting ====== D:/!@Projects/FinicityTask/Data/Img1.png
-2020-07-01 11:03:03,953:Helper_Scripts.ExtractData:performing cleaning operation..
-2020-07-01 11:03:14,674:Helper_Scripts.ExtractData:Image is cleaned and has shape (1041, 630, 3)
-2020-07-01 11:03:17,973:Helper_Scripts.ExtractData:Now Extracting text
-2020-07-01 11:03:20,511:Helper_Scripts.ExtractData:applying Spell checking
-2020-07-01 11:03:20,711:__main__:
-Extraction process completed and file is stored at D:/!@Projects/FinicityTask/Output/WithSpellCheck__Img1.png.txt
-2020-07-01 11:03:20,711:__main__:None
-2020-07-01 11:03:46,780:Helper_Scripts.ExtractData:Starting ====== D:/!@Projects/FinicityTask/Data/Img1.png
-2020-07-01 11:03:46,798:Helper_Scripts.ExtractData:performing cleaning operation..
-2020-07-01 11:03:53,570:Helper_Scripts.ExtractData:Image is cleaned and has shape (1041, 630, 3)
-2020-07-01 11:03:58,827:Helper_Scripts.ExtractData:Now Extracting text
-2020-07-01 11:04:01,543:Helper_Scripts.ExtractData:applying Spell checking
-2020-07-01 11:04:02,624:__main__:
-Extraction process completed and file is stored at D:/!@Projects/FinicityTask/Output/WithSpellCheck__Img1.png.txt
-2020-07-01 11:04:02,624:__main__:None
-2020-07-01 11:04:31,465:Helper_Scripts.ExtractData:Starting ====== D:/!@Projects/FinicityTask/Data/Img1.png
-2020-07-01 11:04:31,482:Helper_Scripts.ExtractData:performing cleaning operation..
-2020-07-01 11:04:37,997:Helper_Scripts.ExtractData:Image is cleaned and has shape (1041, 630, 3)
-2020-07-01 11:04:41,031:Helper_Scripts.ExtractData:Now Extracting text
-2020-07-01 11:04:44,183:Helper_Scripts.ExtractData:applying Spell checking
-2020-07-01 11:04:44,858:__main__:
-Extraction process completed and file is stored at D:/!@Projects/FinicityTask/Output/WithSpellCheck__Img1.png.txt
-2020-07-01 11:04:44,859:__main__:None
-2020-07-01 11:04:44,860:Helper_Scripts.ExtractData:Starting ====== D:/!@Projects/FinicityTask/Data/Img2.png
-2020-07-01 11:04:44,873:Helper_Scripts.ExtractData:performing cleaning operation..
-2020-07-01 11:05:01,286:Helper_Scripts.ExtractData:Image is cleaned and has shape (777, 630, 3)
-2020-07-01 11:05:03,824:Helper_Scripts.ExtractData:Now Extracting text
-2020-07-01 11:05:07,655:Helper_Scripts.ExtractData:applying Spell checking
-2020-07-01 11:05:07,847:__main__:
-Extraction process completed and file is stored at D:/!@Projects/FinicityTask/Output/WithSpellCheck__Img2.png.txt
-2020-07-01 11:05:07,848:__main__:None
-2020-07-01 11:05:07,848:Helper_Scripts.ExtractData:Starting ====== D:/!@Projects/FinicityTask/Data/Img3.png
-2020-07-01 11:05:07,855:Helper_Scripts.ExtractData:performing cleaning operation..
-2020-07-01 11:05:13,350:Helper_Scripts.ExtractData:Image is cleaned and has shape (422, 759, 3)
-2020-07-01 11:05:15,714:Helper_Scripts.ExtractData:Now Extracting text
-2020-07-01 11:05:17,393:Helper_Scripts.ExtractData:applying Spell checking
-2020-07-01 11:05:17,637:__main__:
-Extraction process completed and file is stored at D:/!@Projects/FinicityTask/Output/WithSpellCheck__Img3.png.txt
-2020-07-01 11:05:17,638:__main__:None
-2020-07-01 11:05:17,638:Helper_Scripts.ExtractData:Starting ====== D:/!@Projects/FinicityTask/Data/Img4.png
-2020-07-01 11:05:17,644:Helper_Scripts.ExtractData:performing cleaning operation..
-2020-07-01 11:05:21,412:Helper_Scripts.ExtractData:Image is cleaned and has shape (529, 396, 3)
-2020-07-01 11:05:22,935:Helper_Scripts.ExtractData:Now Extracting text
-2020-07-01 11:05:26,582:Helper_Scripts.ExtractData:applying Spell checking
-2020-07-01 11:05:26,880:__main__:
-Extraction process completed and file is stored at D:/!@Projects/FinicityTask/Output/WithSpellCheck__Img4.png.txt
-2020-07-01 11:05:26,880:__main__:None
+2020-07-07 12:12:55,404:Helper_Scripts.ExtractData:Starting ====== D:/@GitUploads/TextExtraction/Data/Img1.png
+2020-07-07 12:12:55,417:Helper_Scripts.ExtractData:performing cleaning operation..
+2020-07-07 12:13:03,349:Helper_Scripts.ExtractData:Image is cleaned and has shape (1041, 630, 3)
+2020-07-07 12:13:11,517:Helper_Scripts.ExtractData:Now Extracting text
+2020-07-07 12:13:12,686:Helper_Scripts.ExtractData:applying Spell checking
+2020-07-07 12:13:13,156:__main__:
+Extraction process completed and file is stored at D:/@GitUploads/TextExtraction/Output/WithSpellCheck__Img1.png.txt
+2020-07-07 12:13:13,157:__main__:None
+2020-07-07 12:13:13,157:Helper_Scripts.ExtractData:Starting ====== D:/@GitUploads/TextExtraction/Data/Img2.png
+2020-07-07 12:13:13,169:Helper_Scripts.ExtractData:performing cleaning operation..
+2020-07-07 12:13:21,497:Helper_Scripts.ExtractData:Image is cleaned and has shape (777, 630, 3)
+2020-07-07 12:13:27,812:Helper_Scripts.ExtractData:Now Extracting text
+2020-07-07 12:13:32,650:Helper_Scripts.ExtractData:applying Spell checking
+2020-07-07 12:13:33,706:__main__:
+Extraction process completed and file is stored at D:/@GitUploads/TextExtraction/Output/WithSpellCheck__Img2.png.txt
+2020-07-07 12:13:33,707:__main__:None
+2020-07-07 12:13:33,707:Helper_Scripts.ExtractData:Starting ====== D:/@GitUploads/TextExtraction/Data/Img3.png
+2020-07-07 12:13:33,713:Helper_Scripts.ExtractData:performing cleaning operation..
+2020-07-07 12:13:37,226:Helper_Scripts.ExtractData:Image is cleaned and has shape (422, 759, 3)
+2020-07-07 12:13:41,410:Helper_Scripts.ExtractData:Now Extracting text
+2020-07-07 12:13:42,227:Helper_Scripts.ExtractData:applying Spell checking
+2020-07-07 12:13:42,494:__main__:
+Extraction process completed and file is stored at D:/@GitUploads/TextExtraction/Output/WithSpellCheck__Img3.png.txt
+2020-07-07 12:13:42,495:__main__:None
+2020-07-07 12:13:42,496:Helper_Scripts.ExtractData:Starting ====== D:/@GitUploads/TextExtraction/Data/Img4.png
+2020-07-07 12:13:42,501:Helper_Scripts.ExtractData:performing cleaning operation..
+2020-07-07 12:13:46,902:Helper_Scripts.ExtractData:Image is cleaned and has shape (529, 396, 3)
+2020-07-07 12:13:50,301:Helper_Scripts.ExtractData:Now Extracting text
+2020-07-07 12:13:52,571:Helper_Scripts.ExtractData:applying Spell checking
+2020-07-07 12:13:53,131:__main__:
+Extraction process completed and file is stored at D:/@GitUploads/TextExtraction/Output/WithSpellCheck__Img4.png.txt
+2020-07-07 12:13:53,132:__main__:None
