@@ -22,4 +22,4 @@ https://github.com/tesseract-ocr/tesseract/wiki
 Make sure English language packages are present in the file:
 https://github.com/tesseract-ocr/tessdata/tree/3.04.00
 
-downlaod all the language files and replace it in installed tesseract folder.
+downlaod all the language files and replace it in installed tesseract folder...
